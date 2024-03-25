@@ -152,4 +152,4 @@ Adjust the kernel.json file in the same way as above.
 ...
 
 Finally,
-![alt text](image-4.png)
+![alt text](image-5.png)
