@@ -5,7 +5,7 @@
 conda install jupyterlab
 ```
 
-# How can a kernel be detected by juperter server?
+# How can a kernel be detected by jupyter server?
 
 
 A kernel identifies itself to IPython by creating a directory, the name of which is used as an identifier for the kernel. These may be created in a number of locations:
@@ -52,6 +52,7 @@ env (optional): A dictionary of environment variables to set for the kernel. The
 metadata (optional): A dictionary of additional attributes about this kernel; used by clients to aid in kernel selection. Metadata added here should be namespaced for the tool reading and writing that metadata.
 
 For example, the kernel.json file for IPython or R looks like this:
+
 例如，IPython 或者R的 kernel.json 文件如下所示：
 
 ```json
